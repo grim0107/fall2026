@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- IT 102 Self-Assignment VS Code: HTML Form Creation -->
+<!-- HTML Forms: Customer Food Order Form -->
+<!-- Matt Grimm -->
+
+<!-- head element / info for machine processing -->
+<head>
+    <meta charset="UTF-8">
+    <title>IT 102 HTML Forms - Customer Food Order Form</title>
+
+    <!-- style -->
+    <style>
+    
+    body { 
+        font-family: Verdana; 
+    }
+    
+    p {
+      color: darkgreen;
+      font-size: 20px;
+    }
+
+    h1 {
+    color: darkblue;
+    }
+
+    .uppercase {
+    text-transform: uppercase;
+    }
+
+    a[href*='menu'] {
+    color: darkcyan;
+    }
+
+    a:hover{
+    color: darkgreen;
+    }
+    
+    #table_user_name_input {
+            border: 1px solid skyblue;
+            padding: 14px;
+            margin-bottom: 20px;
+        }
+    
+        #table_user_email_input{
+            border: 1px solid red;
+            padding: 14px;
+            margin-bottom: 20px;
+        }
+    
+    #table_user_food_choice {
+            border: 1px solid darkgreen;
+            padding: 14px;
+            margin-bottom: 20px;
+        }
+        
+    #table_user_allergies_input{
+            border: 1px solid darkblue;
+            padding: 14px;
+            margin-bottom: 20px;
+        }
+
+    #table_user_submit{
+            border: 6px solid skyblue;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+
+
+    </style>        
+</head>
+
+<!-- body element / content of the HTML document -->
+<body>
+
+<!-- heading -->
+<h1 class='uppercase'>Customer Order Form</h1>
+
+<!-- short paragraph explaining the form -->
+<p style='color: green; font-size: 14px;'>Welcome to the food order form. The form will obtain your first name, last name, food preference, and allergy information. Please complete the form to submit your food preference.</p>
+
+<br>
+
+<p>If you need help, please review: <a href="https://canlis.com/menu/">Our Menu</a></p>
+
+<br>
+
+<!-- form -->
+<form action="#" method="post">
+<!-- Name Input -->
+    <div id="table_user_name_input">
+        <label for="first_name">First Name:</label>
+        <input type="text" id="first_name" name="first_name" placeholder="Enter your first name" minlength="2" maxlength="30" required>
+        
+        <br>
+        <br>
+        
+        <label for="last_name">Last Name:</label>
+        <input type="text" id="last_name" name="last_name" placeholder="Enter your last name" minlength="2" maxlength="30" required>
+
+        <br>
+        <br>
+
+    </div>
+
+    <!-- Email Input -->
+    <div id="table_user_email_input">
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" placeholder="you@example.com" required>
+        <br>
+        <br>
+    </div>
+
+    <!-- Food Choice Input -->
+    <div id="table_user_food_choice">
+        <label for="food_choice">Food Preference:</label>
+        <select id="food_choice" name="food_choice" required>
+            <option value="">-- Select a food option --</option>
+            <option value="Chicken">Chicken</option>
+            <option value="Beef">Beef</option>
+            <option value="Fish">Fish</option>
+        </select>
+
+        <br>
+        <br>
+    </div>
+    
+    <!-- Text Area for Allergy Information Input -->
+    <div id="table_user_allergies_input">
+        <label for="allergies">Allergy Information:</label>
+        <br>
+        <textarea id="allergies" name="allergies" rows="5" cols="40" placeholder="List your allergies here. If no allergies, leave blank."></textarea>
+
+        <br>
+        <br>
+    </div>
+
+    <div id="table_user_submit">
+        <button type="submit">Send Order</button>
+        
+        <br>
+        <br>
+    </div>
+</form>
+
+</body>
+
+</html>
