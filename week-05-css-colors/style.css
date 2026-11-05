@@ -1,0 +1,48 @@
+/* 
+IT 102 Self-Assignment VS Code: CSS Styling Colors 
+Matt Grimm
+*/
+
+/* Element Selector - Heading 1 styling */
+h1 {
+    color: green;
+    padding: 10px;
+}
+
+/* Element Selector - Heading 2 styling */
+h2 {
+    color: purple;
+    padding: 10px;
+}
+
+/* Element Selector - Paragraphs styling */
+p {
+    color: lightblue;
+    background-color: darkblue;
+    padding: 10px;
+}
+
+/* ID Selector - Button styling */
+#blue_button {
+    color: white;
+    background-color: blue;
+    padding: 10px;
+}
+
+/* ID Selector - Button division styling */
+#button {
+    background-color: gold;
+    padding: 20px;
+}
+
+/* ID Selector - heading division styling */
+#headings {
+    background-color: gold;
+    padding: 10px;
+}
+
+/* ID Selector - paragraphs division styling */
+#paragraphs {
+    background-color: lightblue;
+    padding: 10px;
+}

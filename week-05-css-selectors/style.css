@@ -1,0 +1,72 @@
+/* 
+IT 102 Self-Assignment VS Code: CSS Class and ID Selectors
+Matt Grimm
+*/
+
+/* Element Selector - body styling */
+body {
+    font-family: Verdana;
+}
+
+/* Class Selector styling */
+.maroon {
+    color: #7A0019;
+}
+
+.cardinal {
+    color: #C5050C;
+}
+
+.green {
+    color: #18453B;
+}
+
+.maize {
+    color: #FFCB05;
+}
+
+.scarlet_o {
+    color: #BA0C2F;
+}
+
+.blue_p {
+    color: blue;
+}
+
+.black {
+    color: #000000;
+}
+
+.scarlet_l {
+    color: #D00000;
+}
+
+.orange {
+    color: orangered;
+}
+
+.old_gold {
+    color: #CEB888;
+}
+
+/* ID Selector - yes and no button styling */
+#yesButton {
+    color: white;
+    background-color: green;
+    border: 6px solid lightgreen;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+#noButton {
+    color: white;
+    background-color: red;
+    border: 6px solid lightpink;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* Element Selector - paragraph styling */
+p {
+    color: #000000;
+}
